@@ -1,0 +1,192 @@
+<resources>
+    <string name="app_name">Galen</string>
+    <string name="Login_page">Login</string>
+    <string name="username_text">Enter Your Email Address</string>
+    <string name="password_text">Enter Your Password</string>
+    <string name="username_field" />
+    <string name="login_button">LOG IN</string>
+    <string name="title_activity_create_account">CreateAccountActivity</string>
+    <string name="create_account_page">Create Account</string>
+    <string name="email_field">Enter your email account</string>
+    <string name="enter_email_field">Email</string>
+    <string name="username_label">Enter a username</string>
+    <string name="password_label">Enter a Password (Must contain a minimum of 10 characters, 1 upper case letter, 1 lower case letter, and 1 number.</string>
+    <string name="confirm_password_label">Confirm your password</string>
+    <string name="create_account_button">Create Account</string>
+    <string name="account_page_button">Create Account</string>
+    <string name="account_type_label">Select an Account Type</string>
+
+    <string-array name="accounts_create">
+        <item>employee</item>
+        <item>patient</item>
+    </string-array>
+
+    <string-array name="accounts_login">
+        <item>employee</item>
+        <item>patient</item>
+    </string-array>
+
+    <string-array name="ratings">
+        <item>No rating</item>
+        <item>1</item>
+        <item>2</item>
+        <item>3</item>
+        <item>4</item>
+        <item>5</item>
+    </string-array>
+
+    <string-array name="sched_minutes">
+        <item>00</item>
+        <item>15</item>
+        <item>30</item>
+        <item>45</item>
+    </string-array>
+
+    <string-array name="sched_hours">
+        <item> 1</item>
+        <item> 2</item>
+        <item> 3</item>
+        <item> 4</item>
+        <item> 5</item>
+        <item> 6</item>
+        <item> 7</item>
+        <item> 8</item>
+        <item> 9</item>
+        <item>10</item>
+        <item>11</item>
+        <item>12</item>
+    </string-array>
+
+    <string-array name="sched_ampm">
+        <item>AM</item>
+        <item>PM</item>
+    </string-array>
+
+    <string-array name="sched_day">
+        <item>Monday</item>
+        <item>Tuesday</item>
+        <item>Wednesday</item>
+        <item>Thursday</item>
+        <item>Friday</item>
+        <item>Saturday</item>
+        <item>Sunday</item>
+    </string-array>
+
+
+    <string-array name="search_sched_minutes">
+        <item>--</item>
+        <item>00</item>
+        <item>15</item>
+        <item>30</item>
+        <item>45</item>
+    </string-array>
+
+    <string-array name="search_sched_hours">
+        <item> --</item>
+        <item> 1</item>
+        <item> 2</item>
+        <item> 3</item>
+        <item> 4</item>
+        <item> 5</item>
+        <item> 6</item>
+        <item> 7</item>
+        <item> 8</item>
+        <item> 9</item>
+        <item>10</item>
+        <item>11</item>
+        <item>12</item>
+    </string-array>
+
+    <string-array name="search_sched_ampm">
+        <item>--</item>
+        <item>AM</item>
+        <item>PM</item>
+    </string-array>
+
+    <string-array name="search_sched_day">
+        <item>--</item>
+        <item>Monday</item>
+        <item>Tuesday</item>
+        <item>Wednesday</item>
+        <item>Thursday</item>
+        <item>Friday</item>
+        <item>Saturday</item>
+        <item>Sunday</item>
+    </string-array>
+
+
+    <string name="title_activity_login">Sign in</string>
+    <string name="prompt_email">Email</string>
+    <string name="prompt_password">Password</string>
+    <string name="action_sign_in">Sign in or register</string>
+    <string name="action_sign_in_short">Sign in</string>
+    <string name="welcome">"Welcome !"</string>
+    <string name="invalid_username">Not a valid username</string>
+    <string name="invalid_password">Password must be >5 characters</string>
+    <string name="login_failed">"Login failed"</string>
+    <string name="username_hint">Email Address</string>
+    <string name="password_hint">Password</string>
+    <string name="email_hint">Email</string>
+    <string name="elcome_screen_title">WELCOME!</string>
+    <string name="logout_button">Log Out</string>
+    <string name="loginUsernameHint">Enter your email address</string>
+    <string name="loginPasswordHint">Enter your password</string>
+    <string name="createEmailHint">Enter your email address</string>
+    <string name="createUsernameHint">Username</string>
+    <string name="createPasswordHint">Create a password</string>
+    <string name="createPassword2Hint">Enter your password again</string>
+    <string name="admin_login_button">Login as Admin</string>
+    <string name="as1">Add Service Page</string>
+    <string name="as2">Who provides this service?</string>
+    <string name="as3">Service Name:</string>
+    <string name="as4">Role:</string>
+    <string name="as5">What is the service?</string>
+    <string name="as6">Submit</string>
+    <string name="wel1">Welcome, Neymar! You are logged in as role.</string>
+    <string name="wel2">TextView</string>
+    <string name="wel3">Delete an Account</string>
+    <string name="wel4">Add new service</string>
+    <string name="wel5">Update a service</string>
+    <string name="cli1">Complete Clinic Profile</string>
+    <string name="cli2">Name</string>
+    <string name="cli3">Enter name of clinic</string>
+    <string name="cli4">Insurance Type:</string>
+    <string name="cli5">Enter type of insurance accepted</string>
+    <string name="cli6">Address</string>
+    <string name="cli7">Enter address of clinic</string>
+    <string name="cli8">Submit</string>
+    <string name="delAcc">Delete an Account  (Long Press to Select)</string>
+    <string name="svc1">Add Or Delete a Service  (Long Press to Select)</string>
+    <string name="welEm1">Welcome, Neymar! You are logged in as role.</string>
+    <string name="welEm2">TextView</string>
+    <string name="welEm3">Complete Clinic Profile</string>
+    <string name="alog1">Enter Username</string>
+    <string name="alog2">Enter Password</string>
+    <string name="upAcc1">Cancel</string>
+    <string name="UpAcc2">Delete</string>
+    <string name="UpSvc1">Update Service Name</string>
+    <string name="UpSvc2">Update Service Role</string>
+    <string name="UpSvc3">Cancel</string>
+    <string name="UpSvc4">Delete</string>
+    <string name="UpSvc5">Update</string>
+    <string name="sched1">Please set your clinic\'s schedule</string>
+    <string name="schedMonday">Monday:</string>
+    <string name="schedTuesday">Tuesday:</string>
+    <string name="schedWednesday">Wednesday:</string>
+    <string name="schedThursday">Thursday:</string>
+    <string name="schedFriday">Friday:</string>
+    <string name="schedSaturday">Saturday:</string>
+    <string name="schedSunday">Sunday:</string>
+    <string name="schedb_open">Open For This Day</string>
+    <string name="schedb_close">Close Clinic For This Day</string>
+    <string name="schedb_finish">Finished Setting Schedule</string>
+    <string name="schedb_setTime">Set Times for This Day</string>
+    <string name="sched_tvOpen">Opening Time:</string>
+    <string name="sched_tv_ClosingTime">Closing Time:</string>
+    <string name="confTitle">Please Confirm Your Clinic\'s Weekly Schedule:</string>
+    <string name="btn_confSched">Confirm Schedule</string>
+    <string name="conf_conf">Confirm Schedule</string>
+    <string name="conf_reject">Change Schedule</string>
+    <string name="wel_Schedule">View Clinic Schedule</string>
+
+</resources>

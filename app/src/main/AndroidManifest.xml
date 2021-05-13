@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.walkin_clinic_ui">
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/galen_icon"
+        android:label="Galen Clinic Finder"
+        android:roundIcon="@mipmap/galen_icon_round"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity android:name="ScheduleConfirm"></activity>
+        <activity android:name=".SetSchedule" />
+        <activity android:name=".DeleteService" />
+        <activity android:name=".DeleteAccount" />
+        <activity android:name=".AddService" />
+        <activity android:name=".AdminWelcomeActivity" />
+        <activity android:name=".EmployeeWelcomeActivity" />
+        <activity android:name=".CreateClinic" />
+        <activity android:name=".PatientWelcomeActivity" />
+        <activity android:name=".EmployeeAddService" />
+        <activity android:name=".EmployeeDeleteService" />
+        <activity android:name=".ClinicSearch" />
+        <activity android:name=".BookAppointment" />
+        <activity android:name=".CheckWaitTime"/>
+        <activity android:name=".RateClinic" />
+        <activity
+            android:name=".CreateAccountActivity"
+            android:label="@string/title_activity_create_account"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity android:name=".MainActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+    </application>
+
+</manifest>
